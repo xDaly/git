@@ -12,7 +12,7 @@ describe('ServiceService', () => {
 
   describe('Calculate',()=>{
     it('res should be greater than 0 ',()=>{
-    let res =  service.calculate(-2,-4)
+    let res =  service.calculate(2,4)
     expect(res).toBeGreaterThanOrEqual(0)
     })
   })
